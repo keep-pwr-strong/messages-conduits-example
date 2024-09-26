@@ -1,0 +1,11 @@
+[package]
+name = "conduits"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pwr-rs = { path = "/Users/khairallah/Desktop/Projects/pwrlabs/os/pwrrs" }
+dotenvy = "0.15.7"
+serde_json = "1.0.128"
+tokio = { version = "1.0", features = ["full"] }
+warp = "0.3.7"
