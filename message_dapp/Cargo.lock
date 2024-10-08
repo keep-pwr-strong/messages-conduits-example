@@ -818,6 +818,8 @@ dependencies = [
 [[package]]
 name = "pwr-rs"
 version = "0.2.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "602aa5e1808e5221f1741ccfca1e831b6fe89449f2a081de8d07f3aedb6da79b"
 dependencies = [
  "hex",
  "k256",
